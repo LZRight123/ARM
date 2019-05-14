@@ -9,6 +9,21 @@ function codeSiginFramework()
     codesign -fs "iPhone Developer: 泽 梁 (WVZ5JP3N7M)" Differentiator.framework
 }
 
+function testElement()
+{
+    for file in ./*.framework
+    do
+        if test -f $file
+        then
+           echo $file
+        #应该这样就OK了
+           codesign -fs "iPhone Developer: 泽 梁 (WVZ5JP3N7M)" $file
+        else
+           echo $file 不要.framework匹配是目录
+        fi
+    done
+}
+
 function codesignApp()
 {
     #cd 到Payload文件夹
