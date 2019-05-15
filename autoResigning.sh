@@ -30,8 +30,23 @@ function unzipAndCopyIpa(){
     echo "build工程路径🍺🍺🍺🍺🍺🍺:$TARGET_APP_PATH"
     
     rm -rf "$TARGET_APP_PATH"
+    rmFilterFramework
     mkdir -p "$TARGET_APP_PATH"
     cp -rf "$TEMP_APP_PATH/" "$TARGET_APP_PATH/"
+}
+
+function rmFilterFramework(){
+    #删除工程目录下的framework
+    #echo `pwd` 这里是在工程目录下  /Users/liangze/Desktop/砸壳的APPS/ReverCodeSigning
+    echo `ls $1`
+    for element in `ls $1`
+    do
+        if  test "$element" == "Frameworks" || test "$element" == "*.framewrok"; then
+            echo ======
+            else
+            rm -rf $1"/"$element
+        fi
+    done
 }
 
 
@@ -76,6 +91,22 @@ function codesing(){
     #签名 app
 }
 
+function changeHookFileMachO(){
+    frameworks=(Framework1)
+    dylibs=()
+    for fram in ${frameworks[@]}
+    do
+        /usr/local/bin/yololib "$TARGET_APP_PATH/$APP_BINARY" "Frameworks/${fram}.framework/${fram}"
+    done
+
+    for dyli in ${dylibs[@]}
+    do
+        /usr/local/bin/yololib "$TARGET_APP_PATH/$APP_BINARY" "Frameworks/${dyli}.dylib"
+    done
+   
+
+}
+
 function start()
 {
     # env > /Users/liangze/Documents/VSCode/ARM/autoResigningEnvPath.md
@@ -84,10 +115,13 @@ function start()
     modiflyInfoPlist
     modiflyBinPermission
     codesing
+    changeHookFileMachO
+
     cp -rf "${TARGET_APP_PATH}" "${SRCROOT}/NewTarget"
 }
 
 start
+# rmFilterFramework
 # zip -r Your.ipa Payload
 
 
