@@ -4,13 +4,13 @@
     <dict>
     	<key>keychain-access-groups</key>
         <array>
-			<string>58Y74FY8QK.*</string>
+			<string>WVZ5JP3N7M.*</string>
 		</array>
     	<key>get-task-allow</key>
         <true/>
 		<key>application-identifier</key>
-		<string>58Y74FY8QK.com.fbbc.supi9</string>
+		<string>WVZ5JP3N7M.*</string>
 		<key>com.apple.developer.team-identifier</key>
-		<string>58Y74FY8QK</string>
+		<string>WVZ5JP3N7M</string>
 	</dict>
 </plist>
