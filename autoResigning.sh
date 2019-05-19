@@ -29,8 +29,8 @@ function unzipAndCopyIpa(){
     TARGET_APP_PATH="$BUILT_PRODUCTS_DIR/$TARGET_NAME.app"
     echo "build工程路径🍺🍺🍺🍺🍺🍺:$TARGET_APP_PATH"
     
-    rm -rf "$TARGET_APP_PATH"
-    rmFilterFramework
+    # rm -rf "$TARGET_APP_PATH"
+    rmFilterFramework "$TARGET_APP_PATH"
     mkdir -p "$TARGET_APP_PATH"
     cp -rf "$TEMP_APP_PATH/" "$TARGET_APP_PATH/"
 }
@@ -41,7 +41,7 @@ function rmFilterFramework(){
     echo `ls $1`
     for element in `ls $1`
     do
-        if  test "$element" == "Frameworks" || test "$element" == "*.framewrok"; then
+        if  test "$element" == "Frameworks" || test "$element" == "*.framewrok" || test "$element" == "*.dylib"; then
             echo ======
             else
             rm -rf $1"/"$element
@@ -93,6 +93,7 @@ function codesing(){
 
 function changeHookFileMachO(){
     frameworks=(Framework1)
+    # dylibs=(libdylib)
     dylibs=()
     for fram in ${frameworks[@]}
     do
@@ -101,7 +102,7 @@ function changeHookFileMachO(){
 
     for dyli in ${dylibs[@]}
     do
-        /usr/local/bin/yololib "$TARGET_APP_PATH/$APP_BINARY" "Frameworks/${dyli}.dylib"
+        /usr/local/bin/yololib "$TARGET_APP_PATH/$APP_BINARY" "${dyli}.dylib"
     done
    
 
