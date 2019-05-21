@@ -6,8 +6,8 @@ Assembly`main:
     0x100c16814 <+16>:  stur   w0, [x29, #-0x8]
     0x100c16818 <+20>:  stur   x1, [x29, #-0x10]
     0x100c1681c <+24>:  bl     0x100c16b64               ; symbol stub for: objc_autoreleasePoolPush
-->  0x100c16820 <+28>:  mov    x1, #0xa
-    0x100c16824 <+32>:  stur   x1, [x29, #-0x18]
+->  0x100c16820 <+28>:  mov    x1, #0xa  #x1 = 10
+    0x100c16824 <+32>:  stur   x1, [x29, #-0x18] //
     0x100c16828 <+36>:  mov    x1, #0x14
     0x100c1682c <+40>:  stur   x1, [x29, #-0x20]
     0x100c16830 <+44>:  ldur   x1, [x29, #-0x18]
