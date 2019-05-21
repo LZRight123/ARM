@@ -11,3 +11,18 @@
 3. Mac电脑利用私钥对App的可执行文件的Hash值进行加密，生成App的签名  二次签名
 4. Mac 将 App的可执行文件、App的签名、证书【关联Mac的私钥】、描述文件 打包成一个App传输给手机 
 5. 手机将会使用苹果的公钥，对证书解析，获得Mac的公钥。利用Mac的公钥，解析App签名，获取Hash值进行认证，认证成功则App成功安装上，认证失败就无法安装。
+
+#可以通过 openssl asnlparse -i -in xxx.certSigningRequest 查看csr文件信息
+[youtube视频](https://www.youtube.com/watch?v=j76PvU9P59I&list=PL4XMD13FgeTTa4B1MKNRI7lrPlr4izRBg&index=16)
+
+#授权机制(Entitlements)
+- 简单说它就是一个沙盒的配置列表，上面列出了哪些行为被允许，哪些会被拒绝
+  - codesign -d -entitlements -xx.app 查看授权列表 
+    - 常见的 get-task-allow true
+
+#配置文件(Provisioning)
+- appid
+- 使用的证书
+- 功能授权列表
+- 可安装的设备列表
+- 苹果签名

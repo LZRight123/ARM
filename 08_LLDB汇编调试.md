@@ -1,0 +1,11 @@
+#LLDB
+- si 单步运行，遇到子函数会进去
+- ni 单步运行，遇到子函数一并执行
+- p/x $x0 打印寄存器地址 
+  - 可以执行运算 比如 p/x 0x0064000 + 0xff 
+- p/x $lr 查看LR funcA调用funcB，funcB结束后，会回到funcA。如果能知道LR的值就知道funcB被谁调用
+- memory read 0x0064000 查看地址的内存
+- dis -a 内存地址。 通过内存看函数 拿到内存后可以通过此命令查看汇编代码
+- x/10 $sp 打印从栈底开始连续的10个字
+- register read 打印寄存器list
+- image list -o -f 模块偏移地址
