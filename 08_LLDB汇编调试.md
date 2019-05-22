@@ -1,4 +1,4 @@
-#LLDB
+ #LLDB
 - [官方文档](https://link.juejin.im/?target=https%3A%2F%2Flldb.llvm.org%2Flldb-gdb.html)
 - [资料](http://visualgdb.com/gdbreference/commands/?tdsourcetag=s_pcqq_aiomsg)
 - 简介：LLDB是个开源的内置于XCode的调试工具，给我们平时开发调试带来很大的便利，同时它对我们逆向分析别人的APP同样有很大的帮助
@@ -9,7 +9,7 @@
   ```
 - 内存查看
   ```
-  $memory read 0x地址(缩写是:x) //可以查看寄存器内存
+  $memory read 0x地址(缩写是:x) //可以查看寄存器内存 比如str 是把寄存器值写到内存中，可以在前后下断点用memory查看
   $memory write 0xaddress 0x65 //写入
   ```
 
@@ -21,6 +21,7 @@
   $p/x $x0 //打印寄存器地址  可以执行运算 比如 p/x 0x0064000 + 0xff 
   $x/10 $sp //打印从栈底开始连续的10个字 一般情况下，oc方法在栈中参数不会超过10个，这个命令就足够了，挨个打印 然后 po address
   $dis -a 内存地址。 通过内存看函数 拿到内存后可以通过此命令查看汇编代码
+  $po $x1
   ```
   p/x 表示输出16进制，还有 p/t(10进制) p/o(8进制)
 - 查看代码段
