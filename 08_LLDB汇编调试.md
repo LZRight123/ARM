@@ -22,6 +22,9 @@
   $x/10 $sp //打印从栈底开始连续的10个字 一般情况下，oc方法在栈中参数不会超过10个，这个命令就足够了，挨个打印 然后 po address
   $dis -a 内存地址。 通过内存看函数 拿到内存后可以通过此命令查看汇编代码
   $po $x1
+  $pblock 0xaaaaa   //打印函数的Block参数
+  $methods 0xffffff //查看对像 及属性方法
+  $search UItextfiled //搜索UItextfiled的对象和实例
   ```
   p/x 表示输出16进制，还有 p/t(10进制) p/o(8进制)
 - 查看代码段
