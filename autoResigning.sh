@@ -1,4 +1,6 @@
 # ${SRCROOT} 这个是工程目录
+echo ${SRCROOT}
+echo ${SRCROOT}
 TEMP_PATH="${SRCROOT}/Temp"
 # 资源文件夹
 ASSETS_PATH="${SRCROOT}/APP"
@@ -16,7 +18,7 @@ mkdir -p "${NewTargetPath}"
 function unzipAndCopyIpa(){
     # 解压IPA 到Temp下
     # 解压ipa包到Temp目录
-    unzip -oqq "$TARGET_IPA_PATH" -d "$TEMP_PATH"
+    # unzip -oqq "$TARGET_IPA_PATH" -d "$TEMP_PATH"
     # 拿到解压的临时App的路径
     TEMP_APP_PATH=$(set -- "$TEMP_PATH/Payload/"*.app;echo "$1")
     # 打印一下
