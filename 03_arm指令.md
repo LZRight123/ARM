@@ -11,6 +11,19 @@
 - 所有 ARM 指令的长度都是 32 位。这些指令是按字对齐方式存储的（所以每条指令地址偏移4），因此在
 ARM 状态下，指令地址的两个最低有效位始终为零。
 
+register |   function  | 含义
+---|---|---
+x0 - x7 | arguments and result registers |  参数和结果寄存器
+x8 | indirect result (large struct) location | 间接结果（大结构）位置
+x9 - x15 |scratch registers | 刮擦寄存器 想用就拿来用
+x16 - x17 | intra call use registers (PTL, linker) | 内部调用使用寄存器（PTL，链接器），一个函数呼叫另一个函数，暂存资料 自己不要用
+x18 | TLS | TLS
+x19 - x28 | saved registers | 保存的寄存器 函数呼叫后 保存内容
+x29 | frame pointer | 帧指针
+x30 |link register | 链接寄存器
+x31 | stack pointer| 堆栈指针
+
+
 #ARM指令的基本格式
 ####<opcode> {<cond>} {s} <Rd>,<Rn>{,<operand2>}
 ####首选语法  <opcode>{s} {<cond>} <Rd>,<Rn>{,<operand2>}
@@ -109,6 +122,10 @@ ARM 状态下，指令地址的两个最低有效位始终为零。
   - ldr x0, [x1, #4] //x1+4 的地址的值，读到x0 => x0=x1+4
   - ldr x0, [x1], #4 //x1的地址的值+4后，给x0 => x1=x1+4;x0=x1
   - ldr x0，[x1, x2] //x0=x1+x2,两个地址之和的地址的值
+  - adr x0, #0x12 //adr是将基于PC相对偏移的地址值（或基于寄存器相对地址值）读取的为指令，
+  - adrp x0, 1 //1. 将1的值左移12位 （1 0000 0000 0000）= 0x1000  2. 将pc寄存器的低12位清零  3. 将前两步的结果相加，放入x0寄存器
+  // 0x1002a6764 <+68>:  adrp   x8, 2  地址 = 2 << 12 +  0x1002a6000
+  - stp x8, x9, [sp, #0x20] ;将x8和x9存入栈的sp+32地址
 - 多寄存器寻址 ldmia x0,{x1,x2,x3,x4} 用的少一点 m代表多，ia立刻
 - 相对寻址 
   - bl next  //跳转到next，并把当前状态保存到 LR
