@@ -1,18 +1,17 @@
 # ${SRCROOT} 这个是工程目录
 echo ${SRCROOT}
-echo ${SRCROOT}
 TEMP_PATH="${SRCROOT}/Temp"
 # 资源文件夹
 ASSETS_PATH="${SRCROOT}/APP"
 # ipa包路径
 TARGET_IPA_PATH="${ASSETS_PATH}/*.ipa"
 # 新包路径
-NewTargetPath="${SRCROOT}/NewTarget"
+# NewTargetPath="${SRCROOT}/NewTarget"
 #新建Temp文件夹
 rm -rf "${TEMP_PATH}"
 # mkdir -p "${TEMP_PATH}"
-rm -rf "${NewTargetPath}"
-mkdir -p "${NewTargetPath}"
+# rm -rf "${NewTargetPath}"
+# mkdir -p "${NewTargetPath}"
 
 # --------------------------------------
 function unzipAndCopyIpa(){
@@ -94,7 +93,7 @@ function codesing(){
 }
 
 function changeHookFileMachO(){
-    frameworks=(Framework1)
+    frameworks=()
     # dylibs=(libdylib)
     dylibs=()
     for fram in ${frameworks[@]}
@@ -120,10 +119,11 @@ function start()
     codesing
     changeHookFileMachO
 
-    cp -rf "${TARGET_APP_PATH}" "${SRCROOT}/NewTarget"
+    # cp -rf "${TARGET_APP_PATH}" "${SRCROOT}/NewTarget"
 }
 
 start
+# unzipAndCopyIpa
 # rmFilterFramework
 # zip -r Your.ipa Payload
 

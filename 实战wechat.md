@@ -91,12 +91,12 @@ BaseMsgContentViewController的hook 可以全注视了  。然后hook CMessageMg
     CMessageWrap *msg = %orig;
     return msg;
 }
-从这开始 下面的 msg 指针指向一个地址，应该是把上面要msg copy了一下
+从这开始 下面的 msg 指针指向一个地址，应该是把上面要msg copy了一下 hook 这个两个方法。
 - (void)AsyncOnAddMsg:(id)arg1 MsgWrap:(id)arg2 {
     %orig;
 }
 
-//这个会把上面两个方法的消息合并。 hook 这个方法。
+//这个会把上面两个方法的消息合并。 
 - (void)onNewSyncAddMsgSessionArray:(id)arg1 withUsers:(id)arg2 {
     %orig;
 }
@@ -114,6 +114,9 @@ BaseMsgContentViewController的hook 可以全注视了  。然后hook CMessageMg
 ```
 最后决定hook 这个方法，
 ```
+- (void)AsyncOnAddMsg:(id)arg1 MsgWrap:(id)arg2 {
+    %orig;
+}
 - (void)onNewSyncAddMsgSessionArray:(id)arg1 withUsers:(id)arg2 {
     %orig;
     if ([arg1 isKindOfClass:[NSDictionary class]]) {
@@ -139,7 +142,8 @@ BaseMsgContentViewController的hook 可以全注视了  。然后hook CMessageMg
 lldb-> target = WCRedEnvelopesReceiveHomeView ,action = OnOpenRedEnvelopes; WCRedEnvelopesReceiveHomeView OnOpenRedEnvelopes
 然后看下这个方法做了什么事
 
-[<WCRedEnvelopesReceiveControlLogic: 0x281ed4070> OnReceiverQueryRedEnvelopesRequest:{
+[WCRedEnvelopesReceiveControlLogic startLogic] -> WCRedEnvelopesLogicMg ReceiverQueryRedEnvelopesRequest:
+<!-- [<WCRedEnvelopesReceiveControlLogic: 0x281ed4070> OnReceiverQueryRedEnvelopesRequest:{
     "expression_md5" = "";
     hbStatus = 2;
     hbType = 0;
@@ -155,8 +159,10 @@ lldb-> target = WCRedEnvelopesReceiveHomeView ,action = OnOpenRedEnvelopes; WCRe
     timingIdentifier = EF27A037E77A795C31EF36B35E24F4BB;
     watermark = "";
     wishing = "\U606d\U559c\U53d1\U8d22\Uff0c\U5927\U5409\U5927\U5229";
-} Error:(null)]
+} Error:(null)] -->
+-> 内存地址 0x1025adce4
 
+[WCRedEnvelopesLogicMgr ReceiverQueryRedEnvelopesRequest:parameters]
 
 
  

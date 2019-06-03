@@ -1,4 +1,5 @@
 #0x00 make简介
+[blog](https://blog.csdn.net/seven_amber/article/details/70216216)
 - make是一个指令工具，它解释makefile中的指令或者说规则。在我们执行make之前，需要有一个名为makefile或Makefile的文件。这个文件用来告诉make需要完成什么样的操作。我们可以简单的把makefile认为是一份定义了源文件间依赖关系、如何编译各个源文件并生成可执行文件的说明书。
 - makefile的基本结构如下
   ```
@@ -75,4 +76,19 @@
 10. 模式变量; 模式变量是目标变量的扩展，可以根据相应的规则，找到符合规则的目标
 
 #0x14 函数调用
-
+1. 自定义函数；
+    - 自定义函数是一个多行变量，无法直接调用
+    - 自定义函数是一个过程调用，没有任何返回值 
+    - 自定义函数用于定义命令集合，并应用规则中
+    - 通常，调用自定义的方法是在规则中，$(call funcname)，这种方式调用。当我们用var的方式去调用函数时，不会成功的调用函数，原因就在于，define定义的函数，必须要在规则中通过call才能调用，否则，就只是当作一个变量。call的作用，就是将相应的位置换成实参。
+2. 预定义函数。 预定义函数一般需要使用的时候再去查询； 在makefile中不支持真正意义上的函数，因为自定义函数只是一个多行变量；预定义的call函数在调用时，将参数传递给多行变量；自定义函数是call函数的实参，并在call中被执行。
+3. makefile中的函数（都是有返回值）
+   - wildcard 查找当前目录下所有.c文件，返回值给src;src=$(wildcard ./*.c)
+   - patsubst 替换所有.c文件为.o文件; obj=$(patsubst ./%.c, ./%.o, $(src))
+  
+#0x18 条件判断
+<conditional-directive> //ifeq ($(CC),gcc) //ifneq //ifdef<variable-name> // ifndef <variable-name>
+<text-if-true> //$(CC) -o foo $(objects) $(libs_for_gcc)
+else
+<text-if-false> //$(CC) -o foo $(objects) $(normal_libs)
+endif
