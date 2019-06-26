@@ -81,4 +81,18 @@ TTHTTPRequestSerializerBase
 
 }
 
-<NSURLRequest: 0x28397b940> { URL: http://mon.snssdk.com/monitor/collect/
+
+我看代码掉的是 掉的是这个接口 https://aweme.snssdk.com/passport/mobile/send_code/v1/
+但是我抓包却是别的接口
+https://iu.snssdk.com/passport/mobile/send_code/v1/
+https://lf.snssdk.com/passport/mobile/send_code/v1/
+https://verify.snssdk.com/view
+https://verify.snssdk.com/get
+
+uilseesiondelegate = <FABNetworkClient: 0x28040c7c0>
+<TTNetworkHTTPClient: 0x283b5e940
+AFHTTPSessionManager
+ANSUploader
+AWEVideoDownloadNetworkUtility_URLSession
+HMDURLSessionManager
+AFURLSessionManager
