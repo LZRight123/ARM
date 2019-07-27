@@ -1,4 +1,4 @@
-# "iPhone Developer: 泽 梁 (WVZ5JP3N7M)"
+# 
 # "iPhone Distribution: Beijing Rongzhi Technology Co., Ltd. (58Y74FY8QK)"
 
 function removePlug()
@@ -51,3 +51,11 @@ function start()
 }
 
 start
+
+
+codesign -fs "iPhone Distribution: Beijing Rongzhi Technology Co., Ltd. (58Y74FY8QK)" target.dylib
+
+insert_dylib --weak --all-yes @executable_path/target.dylib TestOC
+
+codesign -fs "iPhone Distribution: Beijing Rongzhi Technology Co., Ltd. (58Y74FY8QK)" --no-strict --entitlements=../entitlements.plist ../TestOC.app 
+xcrun -sdk iphoneos PackageApplication -v TestOC.app -o $(pwd)/TestOC.ipa
