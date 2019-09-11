@@ -1,4 +1,11 @@
 # [安装](https://github.com/robbyrussell/oh-my-zsh)
+```
+brew install zsh zsh-completions
+chsh -s /bin/zsh #将zsh设置为默认shell
+
+cat /etc/shells => 查看shells
+echo $SHELL => /bin/zsh (查看默认sh)
+```
 1. 安装完成后在~/ 目录下会有一个 /oh-my-zsh文件 ls可以看到
 ```
 CODE_OF_CONDUCT.md cache              oh-my-zsh.sh       tools
