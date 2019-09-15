@@ -60,7 +60,7 @@
 - pom工程
 
 # 架构
-1. parent模块 其它模块继承它
+1. parent模块 其它模块继承它 是所有子模块的父类，集中定义一些依赖的版本， 集中定义一些插件
 2. manager
 3. common 通用模块 配置 工具类
 4. search 搜索模块 -> solor 
@@ -71,3 +71,175 @@
     - ios app
     - wechat
 7. redis 缓存 负载高并发
+
+
+# 使用 Intellij IDEA 创建 Maven 工程并配置
+https://mvnrepository.com/artifact
+1. parent模块
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.kendinghui</groupId>
+    <artifactId>manong_parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+<!--    子模块-->
+    <modules>
+
+    </modules>
+
+<!--    集中的定义版本号-->
+    <properties>
+        <junit.version>4.12</junit.version>
+        <maven-resources-plugin.vsersion>3.1.0</maven-resources-plugin.vsersion>
+        <maven-compiler-plugin>3.8.0</maven-compiler-plugin>
+    </properties>
+
+<!--    定义依赖-->
+<!--    https://mvnrepository.com/  -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- https://mvnrepository.com/artifact/junit/junit -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+<!--                定义一个资源拷贝的插件啊-->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>${maven-resources-plugin.vsersion}</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin}</version>
+                <configuration>
+                    <compilerVersion>1.8</compilerVersion>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
+```
+2. 其它子模块创建完
+3. manager
+- pojo (实体类 jar包)
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>manong_manager</artifactId>
+        <groupId>com.kendinghui</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <packaging>jar</packaging>
+
+    <artifactId>manong_manager_pojo</artifactId>
+
+
+</project>
+```
+- mapper (继承pojo jar包)
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>manong_manager</artifactId>
+        <groupId>com.kendinghui</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
+    <artifactId>manong_manager_mapper</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.kendinghui</groupId>
+            <artifactId>manong_manager_pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>
+```
+- service (服务层 jar包)
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>manong_manager</artifactId>
+        <groupId>com.kendinghui</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
+    <artifactId>manong_manager_service</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.kendinghui</groupId>
+            <artifactId>manong_manager_mapper</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>
+```
+- web (继承service war包)
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>manong_manager</artifactId>
+        <groupId>com.kendinghui</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>war</packaging>
+    <artifactId>manong_manager_web</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.kendinghui</groupId>
+            <artifactId>manong_manager_service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>
+```
+
+4. SSM的整合
+- Spring --> Service
+- Spring MVC --> 表现层
+- [Mybatis](http://www.mybatis.org/mybatis-3/zh/index.html) -> MyBatis 是一款优秀的持久层框架，它支持定制化 SQL、存储过程以及高级映射。MyBatis 避免了几乎所有的 JDBC 代码和手动设置参数以及获取结果集。MyBatis 可以使用简单的 XML 或注解来配置和映射原生类型、接口和 Java 的 POJO（Plain Old Java Objects，普通老式 Java 对象）为数据库中的记录。
