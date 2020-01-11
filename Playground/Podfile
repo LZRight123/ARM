@@ -1,0 +1,74 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'Associated的内存占用情况' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Associated的内存占用情况
+
+end
+
+target 'Block转C内存占用' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Block转C内存占用
+
+end
+
+target 'C可变数组' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for C可变数组
+
+end
+
+target 'NSArray的内存' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for NSArray的内存
+
+end
+
+target 'Playground' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Playground
+
+end
+
+target 'Test' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Test
+
+end
+
+target '手动分配内存' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for 手动分配内存
+
+end
+
+target '探索Struct内存分布' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for 探索Struct内存分布
+
+end
+
+target '自定义类的内存占用' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for 自定义类的内存占用
+
+end

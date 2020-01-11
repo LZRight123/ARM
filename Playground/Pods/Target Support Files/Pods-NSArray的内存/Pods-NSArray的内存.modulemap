@@ -1,0 +1,6 @@
+framework module Pods_NSArray___ {
+  umbrella header "Pods-NSArray的内存-umbrella.h"
+
+  export *
+  module * { export * }
+}

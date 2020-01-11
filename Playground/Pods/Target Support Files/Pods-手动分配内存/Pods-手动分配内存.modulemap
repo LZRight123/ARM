@@ -1,0 +1,6 @@
+framework module Pods_______ {
+  umbrella header "Pods-手动分配内存-umbrella.h"
+
+  export *
+  module * { export * }
+}

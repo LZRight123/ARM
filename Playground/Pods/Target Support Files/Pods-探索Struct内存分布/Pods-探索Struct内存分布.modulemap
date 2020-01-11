@@ -1,0 +1,6 @@
+framework module Pods___Struct____ {
+  umbrella header "Pods-探索Struct内存分布-umbrella.h"
+
+  export *
+  module * { export * }
+}
