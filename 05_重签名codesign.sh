@@ -57,5 +57,5 @@ codesign -fs "iPhone Distribution: Beijing Rongzhi Technology Co., Ltd. (58Y74FY
 
 insert_dylib --weak --all-yes @executable_path/target.dylib TestOC
 
-codesign -fs "iPhone Distribution: Beijing Rongzhi Technology Co., Ltd. (58Y74FY8QK)" --no-strict --entitlements=../entitlements.plist ../TestOC.app 
+codesign -fs "Apple Distribution: Beijing Rongzhi Technology Co., Ltd. (58Y74FY8QK)" --no-strict --entitlements=../entitlements.plist ../TestOC.app 
 xcrun -sdk iphoneos PackageApplication -v TestOC.app -o $(pwd)/TestOC.ipa

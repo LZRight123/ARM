@@ -50,6 +50,7 @@ cpu要读取一个内存单元的时候，必须先给出这个内存单元的�
 ---
 
 
+
 #要了解X86和ARM，就得先了解复杂指令集（CISC)和精简指令集（RISC）
 - Complex Instruction Set Computing - CISC
 - reduced instruction set computing
@@ -100,3 +101,4 @@ MOV R2, R1
 - ARM的栈是满递减的，向下增长，也就是开口向下。新的变量被存放到栈底的位置，越靠近栈底，内存地址越小
 - 一个名为“stack pointer” SP.的寄存器保存栈顶地址，称为栈地址，在实际操作中，栈地址会不断变化；但是在执行一块代码前后，栈地址应该不变。
 
+# [iOS汇编精讲](https://blog.csdn.net/Hello_Hwc/article/details/80028030)
