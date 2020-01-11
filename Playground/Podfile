@@ -41,14 +41,6 @@ target 'Playground' do
 
 end
 
-target 'Test' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for Test
-
-end
-
 target '手动分配内存' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
