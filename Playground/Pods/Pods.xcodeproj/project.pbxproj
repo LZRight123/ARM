@@ -7,107 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1622A7B3C23EB17A02FA79A0A43EA9F3 /* Pods-Block转C内存占用-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9D27CF16B9E2AEDCF79BE7BF12F3A2 /* Pods-Block转C内存占用-dummy.m */; };
-		1B736B8C29468BAE8C87793EE20CDD28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1DF5C09F981AADE2F275B6BF8BE53928 /* Pods-NSArray的内存-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8604105DC9C0BF374D5AB74B77DED24 /* Pods-NSArray的内存-dummy.m */; };
-		20007F7876B9BDBFD43FA6D7ABF3CB67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		271E2FD5723E388FBF3091C23F663713 /* Pods-自定义类的内存占用-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 218381F2E814617AB70F89FE98535BDE /* Pods-自定义类的内存占用-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F7B9C617466187D754BE4B7A162FA64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		35C809F8596BDF0B8FB3C539098D3142 /* Pods-自定义类的内存占用-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 452C304BE5784985286370CF491F617D /* Pods-自定义类的内存占用-dummy.m */; };
-		3ACF5C52740B602F2616754132D6DEA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3B54ED224D2B469EEBE21D8B6074733A /* Pods-C可变数组-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ADC3C2219BE6C0943C9724FB09D4CC /* Pods-C可变数组-dummy.m */; };
-		4751C9D2045F988E1C79CE3D6AE98635 /* Pods-Playground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0763625E37C497351B8E5DA65A40405E /* Pods-Playground-dummy.m */; };
-		4A4358508921767E181539D1476E2F05 /* Pods-探索Struct内存分布-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2057F1DF07D898BCC4DCFE1B59F57EB6 /* Pods-探索Struct内存分布-dummy.m */; };
-		4EE4651AEE2CDEA65465A56675AAF1EA /* Pods-Associated的内存占用情况-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D40610775B7B538416EC35637585E5 /* Pods-Associated的内存占用情况-dummy.m */; };
-		52E82E889A0980147A8718905021A11C /* Pods-Block转C内存占用-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1E6B9B4F6D83BA82514255EF1156B5 /* Pods-Block转C内存占用-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F421F68BF9EA4617FD7277BCA0DB5E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		64806CB60DD2CDF2C8907A649D752195 /* Pods-NSArray的内存-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F158F4842E4B59DE474383DBA0EB6A6 /* Pods-NSArray的内存-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6734060B059567BA0F49519E0042F772 /* Pods-手动分配内存-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5430919C7A79FD8772A35BBB8E3446ED /* Pods-手动分配内存-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EA6FF13F86F7DD9A3BC1E66AA80A7AE /* Pods-C可变数组-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A3D46D33EB2289A27A79A8596F8762 /* Pods-C可变数组-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FD6DD612D71BC24C6F73052BB9B1168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		929A1868DF1BCBA7474EFAC03BC64AA8 /* Pods-Playground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3131CDDB3DB8081FA803D68B6C1617E9 /* Pods-Playground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C8366FB57DBCA436CF156537C0B5561 /* Pods-手动分配内存-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5287379A9472637AAB04E1A2243833 /* Pods-手动分配内存-dummy.m */; };
-		B398E83F13B20C051A75D4106836472B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C00B666D4A5B996D201189A7D9D2B975 /* Pods-Associated的内存占用情况-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D448A9724A43519896E1BDEDBC456933 /* Pods-Associated的内存占用情况-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF17B31265CC4B79901B3CA1F0B3DA68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F738A93153870E26FBCF096739A73BF8 /* Pods-探索Struct内存分布-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1516B7B5B64F042253E18C3E33B95559 /* Pods-探索Struct内存分布-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4751C9D2045F988E1C79CE3D6AE98635 /* Pods-Playground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E97355CA00352AB5498D55D047332D1F /* Pods-Playground-dummy.m */; };
+		929A1868DF1BCBA7474EFAC03BC64AA8 /* Pods-Playground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 047924BB44121BF5C464447E3DDF6732 /* Pods-Playground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0763625E37C497351B8E5DA65A40405E /* Pods-Playground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Playground-dummy.m"; sourceTree = "<group>"; };
-		115C65FEC78BF2E74AAE2EAC4C50C2DA /* Pods-C可变数组-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-C可变数组-acknowledgements.plist"; sourceTree = "<group>"; };
-		14CA906D6EC59C98AC4D4472B35C5D5D /* Pods-NSArray的内存-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSArray的内存-Info.plist"; sourceTree = "<group>"; };
-		1516B7B5B64F042253E18C3E33B95559 /* Pods-探索Struct内存分布-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-探索Struct内存分布-umbrella.h"; sourceTree = "<group>"; };
-		18A1B0E1E10E0A5A164A7C06073E3D12 /* Pods-Block转C内存占用-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Block转C内存占用-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A27ABF5AFBC5822B952843692B8FF10 /* Pods_Associated_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Associated_______.framework; path = "Pods-Associated的内存占用情况.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2057F1DF07D898BCC4DCFE1B59F57EB6 /* Pods-探索Struct内存分布-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-探索Struct内存分布-dummy.m"; sourceTree = "<group>"; };
-		20AD1B52AC01AF32ECDA1F42BDA26B71 /* Pods_NSArray___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSArray___.framework; path = "Pods-NSArray的内存.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		218381F2E814617AB70F89FE98535BDE /* Pods-自定义类的内存占用-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-自定义类的内存占用-umbrella.h"; sourceTree = "<group>"; };
-		22062F001F3DA7FF850D0B6B7341B27B /* Pods-自定义类的内存占用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-自定义类的内存占用.release.xcconfig"; sourceTree = "<group>"; };
-		2CC0AD8CF22081AAC5C8B12295518846 /* Pods-探索Struct内存分布.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-探索Struct内存分布.release.xcconfig"; sourceTree = "<group>"; };
-		2E39A94E8168F855196CA7C9B1D0A8A7 /* Pods__________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods__________.framework; path = "Pods-自定义类的内存占用.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F9BA43F24A399682C8E1AF654BAECEA /* Pods-自定义类的内存占用.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-自定义类的内存占用.modulemap"; sourceTree = "<group>"; };
-		3131CDDB3DB8081FA803D68B6C1617E9 /* Pods-Playground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Playground-umbrella.h"; sourceTree = "<group>"; };
+		00005DF0E53F8093895DD8A992A0B61B /* Pods-Playground-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Playground-acknowledgements.markdown"; sourceTree = "<group>"; };
+		047924BB44121BF5C464447E3DDF6732 /* Pods-Playground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Playground-umbrella.h"; sourceTree = "<group>"; };
+		2641AAB26350B60D2CA5E96882FAF2D2 /* Pods-Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Playground.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3638A38564A391D235ADCAE494E8FCAC /* Pods-探索Struct内存分布-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-探索Struct内存分布-acknowledgements.plist"; sourceTree = "<group>"; };
-		37F929778ACE82135B28C70ED6196419 /* Pods-Block转C内存占用-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Block转C内存占用-Info.plist"; sourceTree = "<group>"; };
-		3C9155B08A8248ABE37DB91B355D8EC3 /* Pods-NSArray的内存-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSArray的内存-acknowledgements.plist"; sourceTree = "<group>"; };
-		3FAA1098C8DCB3AB76CACE7A40AD9F09 /* Pods-探索Struct内存分布-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-探索Struct内存分布-Info.plist"; sourceTree = "<group>"; };
-		41A3D46D33EB2289A27A79A8596F8762 /* Pods-C可变数组-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-C可变数组-umbrella.h"; sourceTree = "<group>"; };
-		452C304BE5784985286370CF491F617D /* Pods-自定义类的内存占用-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-自定义类的内存占用-dummy.m"; sourceTree = "<group>"; };
-		484373A3BF375AD7FD3A3E689EF6CBEB /* Pods-自定义类的内存占用-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-自定义类的内存占用-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4CA40B622D4638F9DA27B4BB4777028F /* Pods-NSArray的内存-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSArray的内存-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4F9D27CF16B9E2AEDCF79BE7BF12F3A2 /* Pods-Block转C内存占用-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Block转C内存占用-dummy.m"; sourceTree = "<group>"; };
-		51D2AA27B918BBFF6B5B9068C022AC2C /* Pods-Block转C内存占用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Block转C内存占用.release.xcconfig"; sourceTree = "<group>"; };
-		5430919C7A79FD8772A35BBB8E3446ED /* Pods-手动分配内存-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-手动分配内存-umbrella.h"; sourceTree = "<group>"; };
-		545659186127F794693CDA251652C436 /* Pods-探索Struct内存分布.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-探索Struct内存分布.modulemap"; sourceTree = "<group>"; };
-		5812FE77D9D0001E58F7D0C5A4610B75 /* Pods-手动分配内存.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-手动分配内存.modulemap"; sourceTree = "<group>"; };
-		5FE961F5612A9F3A6E090FAD836B32F6 /* Pods-自定义类的内存占用-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-自定义类的内存占用-acknowledgements.plist"; sourceTree = "<group>"; };
-		62AEFB9E9EED81EAFDFC35B6A26CFED8 /* Pods-Associated的内存占用情况.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Associated的内存占用情况.debug.xcconfig"; sourceTree = "<group>"; };
-		70B7D720B610C8AA3A65D496498E5933 /* Pods-C可变数组-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-C可变数组-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71AD657D6F79C80B01D2983CA4E4A124 /* Pods-NSArray的内存.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSArray的内存.debug.xcconfig"; sourceTree = "<group>"; };
-		7264B3B4074613570791C248104D4822 /* Pods-Associated的内存占用情况.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Associated的内存占用情况.modulemap"; sourceTree = "<group>"; };
-		72DAA568BDA97EF2ED2E60C87E36EC28 /* Pods-手动分配内存.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-手动分配内存.debug.xcconfig"; sourceTree = "<group>"; };
-		74ADC3C2219BE6C0943C9724FB09D4CC /* Pods-C可变数组-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-C可变数组-dummy.m"; sourceTree = "<group>"; };
-		757CDD0826319F60B3108DC6FE2E1EC2 /* Pods-Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Playground.release.xcconfig"; sourceTree = "<group>"; };
-		762854A9E4EEE3E817FE49AE989D04D8 /* Pods-Playground-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Playground-Info.plist"; sourceTree = "<group>"; };
-		782816261E0B1889F4231791D64DE2FF /* Pods-NSArray的内存.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSArray的内存.release.xcconfig"; sourceTree = "<group>"; };
-		78C1FEE3EF30DADE616DD917F5B6BA7F /* Pods-Associated的内存占用情况-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Associated的内存占用情况-Info.plist"; sourceTree = "<group>"; };
-		7A6BDE93D69A561DC62A0AE3C3E77704 /* Pods-NSArray的内存.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSArray的内存.modulemap"; sourceTree = "<group>"; };
-		7E8FF6660E5A9E2BBB45D10BD1762AB0 /* Pods-手动分配内存-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-手动分配内存-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F03D4D7F33B663BD9BD8594CFE2D9DE /* Pods_Block_C____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Block_C____.framework; path = "Pods-Block转C内存占用.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F1714FCD08A14058813F0526D822323 /* Pods-Block转C内存占用.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Block转C内存占用.modulemap"; sourceTree = "<group>"; };
-		8241C7D23DEE8D6B4AE903814EAF89DA /* Pods-自定义类的内存占用-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-自定义类的内存占用-Info.plist"; sourceTree = "<group>"; };
+		598E43E6E49B238B9E807399F5A2955C /* Pods-Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Playground.debug.xcconfig"; sourceTree = "<group>"; };
 		836E05CBF8571FDA83B185194FA09E15 /* Pods_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Playground.framework; path = "Pods-Playground.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88827AF92A834FE19CC5B0DC3071BFA1 /* Pods-Playground-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Playground-acknowledgements.plist"; sourceTree = "<group>"; };
-		89C7ECAFB7E73896D5643A19AB0FBC7F /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_______.framework; path = "Pods-手动分配内存.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C87607805EC14BA8D166E6A7564FDCC /* Pods-Block转C内存占用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Block转C内存占用.debug.xcconfig"; sourceTree = "<group>"; };
-		8F158F4842E4B59DE474383DBA0EB6A6 /* Pods-NSArray的内存-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSArray的内存-umbrella.h"; sourceTree = "<group>"; };
-		92C05E3A903064925CC33D1927BCBD82 /* Pods_C____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_C____.framework; path = "Pods-C可变数组.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A9D8066D572B7CB8312BC1E0370965F /* Pods-Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Playground.debug.xcconfig"; sourceTree = "<group>"; };
-		9BF380D4928FBCA4CF06C61BA233E1B8 /* Pods___Struct____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods___Struct____.framework; path = "Pods-探索Struct内存分布.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D608DA98668CAF8A2D01D5D5147AFCA /* Pods-Playground-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Playground-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E5DEFC968FE82F6A5C1EE62ABC5F556 /* Pods-C可变数组.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-C可变数组.release.xcconfig"; sourceTree = "<group>"; };
-		B11FFB59D94AB4E6EE4CB22AE10B7EA6 /* Pods-手动分配内存.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-手动分配内存.release.xcconfig"; sourceTree = "<group>"; };
-		B56EEEE28D6ECD64992BBCA3FBC04029 /* Pods-探索Struct内存分布.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-探索Struct内存分布.debug.xcconfig"; sourceTree = "<group>"; };
-		B5DE7C6C7C900D1BB3CD6838F5D65064 /* Pods-Block转C内存占用-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Block转C内存占用-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B7D40610775B7B538416EC35637585E5 /* Pods-Associated的内存占用情况-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Associated的内存占用情况-dummy.m"; sourceTree = "<group>"; };
-		BCD99BC6F8B05EBCDDABCA2DBBF5A6FB /* Pods-探索Struct内存分布-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-探索Struct内存分布-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C3C678251A4DEBB55288C71A3E3B141F /* Pods-手动分配内存-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-手动分配内存-acknowledgements.plist"; sourceTree = "<group>"; };
-		C4EB8549D9952EC719DD6B3A2C22DFC5 /* Pods-Associated的内存占用情况.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Associated的内存占用情况.release.xcconfig"; sourceTree = "<group>"; };
-		C6375CC98BBCE281DA17F46F6C374C6F /* Pods-Playground-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Playground-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D437DB0D402755A41D2544157F878BD8 /* Pods-Playground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Playground.modulemap"; sourceTree = "<group>"; };
-		D448A9724A43519896E1BDEDBC456933 /* Pods-Associated的内存占用情况-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Associated的内存占用情况-umbrella.h"; sourceTree = "<group>"; };
-		D61EA51B225D4137A52BF44E7762E15F /* Pods-手动分配内存-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-手动分配内存-Info.plist"; sourceTree = "<group>"; };
-		DFAAC158A362EE3541E417A75B5F0BF1 /* Pods-自定义类的内存占用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-自定义类的内存占用.debug.xcconfig"; sourceTree = "<group>"; };
-		DFD4E1F2AAAEF4FD82AB66A5382DE451 /* Pods-Associated的内存占用情况-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Associated的内存占用情况-acknowledgements.plist"; sourceTree = "<group>"; };
-		EB5287379A9472637AAB04E1A2243833 /* Pods-手动分配内存-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-手动分配内存-dummy.m"; sourceTree = "<group>"; };
-		EC1E6B9B4F6D83BA82514255EF1156B5 /* Pods-Block转C内存占用-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Block转C内存占用-umbrella.h"; sourceTree = "<group>"; };
-		EF0F82A9A00219B90A5CE6A33876DB9B /* Pods-C可变数组.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-C可变数组.modulemap"; sourceTree = "<group>"; };
-		F780C783A4B39B57CB480DF26673C29A /* Pods-Associated的内存占用情况-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Associated的内存占用情况-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7832208249B833EA361217C71ACE1DD /* Pods-C可变数组.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-C可变数组.debug.xcconfig"; sourceTree = "<group>"; };
-		F8604105DC9C0BF374D5AB74B77DED24 /* Pods-NSArray的内存-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSArray的内存-dummy.m"; sourceTree = "<group>"; };
-		FA06E0CD63C67C8AF26BD8D37F27FACF /* Pods-C可变数组-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-C可变数组-Info.plist"; sourceTree = "<group>"; };
+		CAC3474600F5C1B1DBA0C1392DAD34D2 /* Pods-Playground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Playground.modulemap"; sourceTree = "<group>"; };
+		E97355CA00352AB5498D55D047332D1F /* Pods-Playground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Playground-dummy.m"; sourceTree = "<group>"; };
+		F54D6B832903D2A7F0B1AF64BDB4C601 /* Pods-Playground-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Playground-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,221 +35,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4277292A50D79A7F8B715743A6A7A1F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3ACF5C52740B602F2616754132D6DEA9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		439624D149C4E87B8DFA9BC4A3AEB2E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B398E83F13B20C051A75D4106836472B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5767081E2E3ABE61EA44F1E5DDD455E0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B736B8C29468BAE8C87793EE20CDD28 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90C049065BAAF7C928066939913D4E0A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FD6DD612D71BC24C6F73052BB9B1168 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6DDD1B56FD11B4CBE90B4E305F12223 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20007F7876B9BDBFD43FA6D7ABF3CB67 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1362D6707AA6C532271622BBC323AD5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F421F68BF9EA4617FD7277BCA0DB5E8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F36E1C8735112F49DBB370E7EA85ACD8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF17B31265CC4B79901B3CA1F0B3DA68 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		150B89DA4CE9CD9D468996629418480E /* Targets Support Files */ = {
+		661F62CFA2FD72415B820A86DCF06831 /* Pods-Playground */ = {
 			isa = PBXGroup;
 			children = (
-				40BD851C6A52ECA03DC2A456577CDE40 /* Pods-Associated的内存占用情况 */,
-				9A047B488CA3C3596D1D325362757704 /* Pods-Block转C内存占用 */,
-				632C0DDC8684FCAE87923534548C6193 /* Pods-C可变数组 */,
-				B92DD65865C68C03E8C08E7E710867FD /* Pods-NSArray的内存 */,
-				4425DBB388DCABA757A4FCA4A95F4FEB /* Pods-Playground */,
-				5EEC02C64179BD6763D8B788A9447FBA /* Pods-手动分配内存 */,
-				6C8AA063E00C9DAB5D36542A80366893 /* Pods-探索Struct内存分布 */,
-				B8CB6CE9CF400CFFDF5E129DFE4EB280 /* Pods-自定义类的内存占用 */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		40BD851C6A52ECA03DC2A456577CDE40 /* Pods-Associated的内存占用情况 */ = {
-			isa = PBXGroup;
-			children = (
-				7264B3B4074613570791C248104D4822 /* Pods-Associated的内存占用情况.modulemap */,
-				F780C783A4B39B57CB480DF26673C29A /* Pods-Associated的内存占用情况-acknowledgements.markdown */,
-				DFD4E1F2AAAEF4FD82AB66A5382DE451 /* Pods-Associated的内存占用情况-acknowledgements.plist */,
-				B7D40610775B7B538416EC35637585E5 /* Pods-Associated的内存占用情况-dummy.m */,
-				78C1FEE3EF30DADE616DD917F5B6BA7F /* Pods-Associated的内存占用情况-Info.plist */,
-				D448A9724A43519896E1BDEDBC456933 /* Pods-Associated的内存占用情况-umbrella.h */,
-				62AEFB9E9EED81EAFDFC35B6A26CFED8 /* Pods-Associated的内存占用情况.debug.xcconfig */,
-				C4EB8549D9952EC719DD6B3A2C22DFC5 /* Pods-Associated的内存占用情况.release.xcconfig */,
-			);
-			name = "Pods-Associated的内存占用情况";
-			path = "Target Support Files/Pods-Associated的内存占用情况";
-			sourceTree = "<group>";
-		};
-		4425DBB388DCABA757A4FCA4A95F4FEB /* Pods-Playground */ = {
-			isa = PBXGroup;
-			children = (
-				D437DB0D402755A41D2544157F878BD8 /* Pods-Playground.modulemap */,
-				C6375CC98BBCE281DA17F46F6C374C6F /* Pods-Playground-acknowledgements.markdown */,
-				88827AF92A834FE19CC5B0DC3071BFA1 /* Pods-Playground-acknowledgements.plist */,
-				0763625E37C497351B8E5DA65A40405E /* Pods-Playground-dummy.m */,
-				762854A9E4EEE3E817FE49AE989D04D8 /* Pods-Playground-Info.plist */,
-				3131CDDB3DB8081FA803D68B6C1617E9 /* Pods-Playground-umbrella.h */,
-				9A9D8066D572B7CB8312BC1E0370965F /* Pods-Playground.debug.xcconfig */,
-				757CDD0826319F60B3108DC6FE2E1EC2 /* Pods-Playground.release.xcconfig */,
+				CAC3474600F5C1B1DBA0C1392DAD34D2 /* Pods-Playground.modulemap */,
+				00005DF0E53F8093895DD8A992A0B61B /* Pods-Playground-acknowledgements.markdown */,
+				F54D6B832903D2A7F0B1AF64BDB4C601 /* Pods-Playground-acknowledgements.plist */,
+				E97355CA00352AB5498D55D047332D1F /* Pods-Playground-dummy.m */,
+				8D608DA98668CAF8A2D01D5D5147AFCA /* Pods-Playground-Info.plist */,
+				047924BB44121BF5C464447E3DDF6732 /* Pods-Playground-umbrella.h */,
+				598E43E6E49B238B9E807399F5A2955C /* Pods-Playground.debug.xcconfig */,
+				2641AAB26350B60D2CA5E96882FAF2D2 /* Pods-Playground.release.xcconfig */,
 			);
 			name = "Pods-Playground";
 			path = "Target Support Files/Pods-Playground";
 			sourceTree = "<group>";
 		};
-		5EEC02C64179BD6763D8B788A9447FBA /* Pods-手动分配内存 */ = {
+		B6A64536477C0C8060CB2FCF64F73BD6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5812FE77D9D0001E58F7D0C5A4610B75 /* Pods-手动分配内存.modulemap */,
-				7E8FF6660E5A9E2BBB45D10BD1762AB0 /* Pods-手动分配内存-acknowledgements.markdown */,
-				C3C678251A4DEBB55288C71A3E3B141F /* Pods-手动分配内存-acknowledgements.plist */,
-				EB5287379A9472637AAB04E1A2243833 /* Pods-手动分配内存-dummy.m */,
-				D61EA51B225D4137A52BF44E7762E15F /* Pods-手动分配内存-Info.plist */,
-				5430919C7A79FD8772A35BBB8E3446ED /* Pods-手动分配内存-umbrella.h */,
-				72DAA568BDA97EF2ED2E60C87E36EC28 /* Pods-手动分配内存.debug.xcconfig */,
-				B11FFB59D94AB4E6EE4CB22AE10B7EA6 /* Pods-手动分配内存.release.xcconfig */,
-			);
-			name = "Pods-手动分配内存";
-			path = "Target Support Files/Pods-手动分配内存";
-			sourceTree = "<group>";
-		};
-		632C0DDC8684FCAE87923534548C6193 /* Pods-C可变数组 */ = {
-			isa = PBXGroup;
-			children = (
-				EF0F82A9A00219B90A5CE6A33876DB9B /* Pods-C可变数组.modulemap */,
-				70B7D720B610C8AA3A65D496498E5933 /* Pods-C可变数组-acknowledgements.markdown */,
-				115C65FEC78BF2E74AAE2EAC4C50C2DA /* Pods-C可变数组-acknowledgements.plist */,
-				74ADC3C2219BE6C0943C9724FB09D4CC /* Pods-C可变数组-dummy.m */,
-				FA06E0CD63C67C8AF26BD8D37F27FACF /* Pods-C可变数组-Info.plist */,
-				41A3D46D33EB2289A27A79A8596F8762 /* Pods-C可变数组-umbrella.h */,
-				F7832208249B833EA361217C71ACE1DD /* Pods-C可变数组.debug.xcconfig */,
-				9E5DEFC968FE82F6A5C1EE62ABC5F556 /* Pods-C可变数组.release.xcconfig */,
-			);
-			name = "Pods-C可变数组";
-			path = "Target Support Files/Pods-C可变数组";
-			sourceTree = "<group>";
-		};
-		69CAB840B9985D245DA42EDAAC98F0A1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				89C7ECAFB7E73896D5643A19AB0FBC7F /* Pods_______.framework */,
-				2E39A94E8168F855196CA7C9B1D0A8A7 /* Pods__________.framework */,
-				9BF380D4928FBCA4CF06C61BA233E1B8 /* Pods___Struct____.framework */,
-				1A27ABF5AFBC5822B952843692B8FF10 /* Pods_Associated_______.framework */,
-				7F03D4D7F33B663BD9BD8594CFE2D9DE /* Pods_Block_C____.framework */,
-				92C05E3A903064925CC33D1927BCBD82 /* Pods_C____.framework */,
-				20AD1B52AC01AF32ECDA1F42BDA26B71 /* Pods_NSArray___.framework */,
 				836E05CBF8571FDA83B185194FA09E15 /* Pods_Playground.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6C8AA063E00C9DAB5D36542A80366893 /* Pods-探索Struct内存分布 */ = {
-			isa = PBXGroup;
-			children = (
-				545659186127F794693CDA251652C436 /* Pods-探索Struct内存分布.modulemap */,
-				BCD99BC6F8B05EBCDDABCA2DBBF5A6FB /* Pods-探索Struct内存分布-acknowledgements.markdown */,
-				3638A38564A391D235ADCAE494E8FCAC /* Pods-探索Struct内存分布-acknowledgements.plist */,
-				2057F1DF07D898BCC4DCFE1B59F57EB6 /* Pods-探索Struct内存分布-dummy.m */,
-				3FAA1098C8DCB3AB76CACE7A40AD9F09 /* Pods-探索Struct内存分布-Info.plist */,
-				1516B7B5B64F042253E18C3E33B95559 /* Pods-探索Struct内存分布-umbrella.h */,
-				B56EEEE28D6ECD64992BBCA3FBC04029 /* Pods-探索Struct内存分布.debug.xcconfig */,
-				2CC0AD8CF22081AAC5C8B12295518846 /* Pods-探索Struct内存分布.release.xcconfig */,
-			);
-			name = "Pods-探索Struct内存分布";
-			path = "Target Support Files/Pods-探索Struct内存分布";
-			sourceTree = "<group>";
-		};
-		9A047B488CA3C3596D1D325362757704 /* Pods-Block转C内存占用 */ = {
-			isa = PBXGroup;
-			children = (
-				7F1714FCD08A14058813F0526D822323 /* Pods-Block转C内存占用.modulemap */,
-				B5DE7C6C7C900D1BB3CD6838F5D65064 /* Pods-Block转C内存占用-acknowledgements.markdown */,
-				18A1B0E1E10E0A5A164A7C06073E3D12 /* Pods-Block转C内存占用-acknowledgements.plist */,
-				4F9D27CF16B9E2AEDCF79BE7BF12F3A2 /* Pods-Block转C内存占用-dummy.m */,
-				37F929778ACE82135B28C70ED6196419 /* Pods-Block转C内存占用-Info.plist */,
-				EC1E6B9B4F6D83BA82514255EF1156B5 /* Pods-Block转C内存占用-umbrella.h */,
-				8C87607805EC14BA8D166E6A7564FDCC /* Pods-Block转C内存占用.debug.xcconfig */,
-				51D2AA27B918BBFF6B5B9068C022AC2C /* Pods-Block转C内存占用.release.xcconfig */,
-			);
-			name = "Pods-Block转C内存占用";
-			path = "Target Support Files/Pods-Block转C内存占用";
-			sourceTree = "<group>";
-		};
-		B8CB6CE9CF400CFFDF5E129DFE4EB280 /* Pods-自定义类的内存占用 */ = {
-			isa = PBXGroup;
-			children = (
-				2F9BA43F24A399682C8E1AF654BAECEA /* Pods-自定义类的内存占用.modulemap */,
-				484373A3BF375AD7FD3A3E689EF6CBEB /* Pods-自定义类的内存占用-acknowledgements.markdown */,
-				5FE961F5612A9F3A6E090FAD836B32F6 /* Pods-自定义类的内存占用-acknowledgements.plist */,
-				452C304BE5784985286370CF491F617D /* Pods-自定义类的内存占用-dummy.m */,
-				8241C7D23DEE8D6B4AE903814EAF89DA /* Pods-自定义类的内存占用-Info.plist */,
-				218381F2E814617AB70F89FE98535BDE /* Pods-自定义类的内存占用-umbrella.h */,
-				DFAAC158A362EE3541E417A75B5F0BF1 /* Pods-自定义类的内存占用.debug.xcconfig */,
-				22062F001F3DA7FF850D0B6B7341B27B /* Pods-自定义类的内存占用.release.xcconfig */,
-			);
-			name = "Pods-自定义类的内存占用";
-			path = "Target Support Files/Pods-自定义类的内存占用";
-			sourceTree = "<group>";
-		};
-		B92DD65865C68C03E8C08E7E710867FD /* Pods-NSArray的内存 */ = {
-			isa = PBXGroup;
-			children = (
-				7A6BDE93D69A561DC62A0AE3C3E77704 /* Pods-NSArray的内存.modulemap */,
-				4CA40B622D4638F9DA27B4BB4777028F /* Pods-NSArray的内存-acknowledgements.markdown */,
-				3C9155B08A8248ABE37DB91B355D8EC3 /* Pods-NSArray的内存-acknowledgements.plist */,
-				F8604105DC9C0BF374D5AB74B77DED24 /* Pods-NSArray的内存-dummy.m */,
-				14CA906D6EC59C98AC4D4472B35C5D5D /* Pods-NSArray的内存-Info.plist */,
-				8F158F4842E4B59DE474383DBA0EB6A6 /* Pods-NSArray的内存-umbrella.h */,
-				71AD657D6F79C80B01D2983CA4E4A124 /* Pods-NSArray的内存.debug.xcconfig */,
-				782816261E0B1889F4231791D64DE2FF /* Pods-NSArray的内存.release.xcconfig */,
-			);
-			name = "Pods-NSArray的内存";
-			path = "Target Support Files/Pods-NSArray的内存";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -349,8 +75,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				69CAB840B9985D245DA42EDAAC98F0A1 /* Products */,
-				150B89DA4CE9CD9D468996629418480E /* Targets Support Files */,
+				B6A64536477C0C8060CB2FCF64F73BD6 /* Products */,
+				F9BE19344C6366FFBCAD75F38A9D6D27 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -362,65 +88,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F9BE19344C6366FFBCAD75F38A9D6D27 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				661F62CFA2FD72415B820A86DCF06831 /* Pods-Playground */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		269C57CF30E7B3D5F67C67DFC168329D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6734060B059567BA0F49519E0042F772 /* Pods-手动分配内存-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D0E2EC587F266C5AB0A69C998788880 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6EA6FF13F86F7DD9A3BC1E66AA80A7AE /* Pods-C可变数组-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		822EF7E7611BA0D0A9CF5EBC7A53B554 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52E82E889A0980147A8718905021A11C /* Pods-Block转C内存占用-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEF8B0AF93F51754A45389C14E095637 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				271E2FD5723E388FBF3091C23F663713 /* Pods-自定义类的内存占用-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B98D809C56E19E98B3C904293A972A59 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C00B666D4A5B996D201189A7D9D2B975 /* Pods-Associated的内存占用情况-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C12D16EEFACF3E047EDBC8996574BA20 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F738A93153870E26FBCF096739A73BF8 /* Pods-探索Struct内存分布-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9A1F77C8565F70A83E69E4BF3152A6C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64806CB60DD2CDF2C8907A649D752195 /* Pods-NSArray的内存-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E41992AB93F69EA440ADD4B4FE9304EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -432,96 +110,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		08F237958A7B347DF601C397A7281308 /* Pods-C可变数组 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C30CC29DD5B483D201DF3C7C21FE5952 /* Build configuration list for PBXNativeTarget "Pods-C可变数组" */;
-			buildPhases = (
-				2D0E2EC587F266C5AB0A69C998788880 /* Headers */,
-				683612474C3F59AAA68B85E0128F4D00 /* Sources */,
-				5767081E2E3ABE61EA44F1E5DDD455E0 /* Frameworks */,
-				0613E7491C3CA1FEC28DDF352EE43F40 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-C可变数组";
-			productName = "Pods-C可变数组";
-			productReference = 92C05E3A903064925CC33D1927BCBD82 /* Pods_C____.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		39CC489E7EFA1773AF74945F1433FE69 /* Pods-Associated的内存占用情况 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9787B508716B320B0086BD2718930AE1 /* Build configuration list for PBXNativeTarget "Pods-Associated的内存占用情况" */;
-			buildPhases = (
-				B98D809C56E19E98B3C904293A972A59 /* Headers */,
-				E80FA2D2839E0B330D4C84EEBBD8DEC2 /* Sources */,
-				E6DDD1B56FD11B4CBE90B4E305F12223 /* Frameworks */,
-				17E3B2CBC90881A5B065D23EB70207D4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Associated的内存占用情况";
-			productName = "Pods-Associated的内存占用情况";
-			productReference = 1A27ABF5AFBC5822B952843692B8FF10 /* Pods_Associated_______.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		866629F764E3D3F422C7DE5D94FD8B87 /* Pods-探索Struct内存分布 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE99CC87C6861E7BDB0171A225095BB7 /* Build configuration list for PBXNativeTarget "Pods-探索Struct内存分布" */;
-			buildPhases = (
-				C12D16EEFACF3E047EDBC8996574BA20 /* Headers */,
-				5D401576B958608C42BE1A2D790B9286 /* Sources */,
-				F1362D6707AA6C532271622BBC323AD5 /* Frameworks */,
-				CA586A09A3F19FE8F3FFAEA98DD42E22 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-探索Struct内存分布";
-			productName = "Pods-探索Struct内存分布";
-			productReference = 9BF380D4928FBCA4CF06C61BA233E1B8 /* Pods___Struct____.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8B4B32F26FC352892BFCF1E432E8C451 /* Pods-Block转C内存占用 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 667FF1DD644EB8138ADA162BAD4F68DC /* Build configuration list for PBXNativeTarget "Pods-Block转C内存占用" */;
-			buildPhases = (
-				822EF7E7611BA0D0A9CF5EBC7A53B554 /* Headers */,
-				B46BE1E9C18DC0116A9CCFEA50A6E20A /* Sources */,
-				4277292A50D79A7F8B715743A6A7A1F5 /* Frameworks */,
-				190F4E19E1DA1358763AD0AA88FE3BF8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Block转C内存占用";
-			productName = "Pods-Block转C内存占用";
-			productReference = 7F03D4D7F33B663BD9BD8594CFE2D9DE /* Pods_Block_C____.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B9B22DDD2CA98ACD0E2BCA5A0AB0EBBD /* Pods-自定义类的内存占用 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F48F23EE4EE7A9D0AE8DD89915B158E /* Build configuration list for PBXNativeTarget "Pods-自定义类的内存占用" */;
-			buildPhases = (
-				AEF8B0AF93F51754A45389C14E095637 /* Headers */,
-				5D6AEAE74B0E9F17DB0D485C7D805A27 /* Sources */,
-				F36E1C8735112F49DBB370E7EA85ACD8 /* Frameworks */,
-				8B81C11C8928D8E743F0A59A9C3011EF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-自定义类的内存占用";
-			productName = "Pods-自定义类的内存占用";
-			productReference = 2E39A94E8168F855196CA7C9B1D0A8A7 /* Pods__________.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		C99F96BE8F139EC4EB423D6EDFA7A76B /* Pods-Playground */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7B3CCDF423A1C802FB7684C2B5082F0 /* Build configuration list for PBXNativeTarget "Pods-Playground" */;
@@ -538,42 +126,6 @@
 			name = "Pods-Playground";
 			productName = "Pods-Playground";
 			productReference = 836E05CBF8571FDA83B185194FA09E15 /* Pods_Playground.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DDFE58125BDCA6B5DDD4623A71CD9CE2 /* Pods-NSArray的内存 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F3112F65C1070F3C4F28E98C15CF5650 /* Build configuration list for PBXNativeTarget "Pods-NSArray的内存" */;
-			buildPhases = (
-				C9A1F77C8565F70A83E69E4BF3152A6C /* Headers */,
-				A09B0B22D4A380D6B227EC4DB28F1536 /* Sources */,
-				90C049065BAAF7C928066939913D4E0A /* Frameworks */,
-				9F7F5A88B109A77A133CB06BEAAE1030 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-NSArray的内存";
-			productName = "Pods-NSArray的内存";
-			productReference = 20AD1B52AC01AF32ECDA1F42BDA26B71 /* Pods_NSArray___.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E8090855F2EDE6671E5A06D8B4D4ED04 /* Pods-手动分配内存 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF2A53984D4E0D4928E99B68857CB188 /* Build configuration list for PBXNativeTarget "Pods-手动分配内存" */;
-			buildPhases = (
-				269C57CF30E7B3D5F67C67DFC168329D /* Headers */,
-				3C91BEBF4F3FCAC10CF22182D021FC6D /* Sources */,
-				439624D149C4E87B8DFA9BC4A3AEB2E1 /* Frameworks */,
-				9BB081A2D42CD0A9764CF3E35013164F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-手动分配内存";
-			productName = "Pods-手动分配内存";
-			productReference = 89C7ECAFB7E73896D5643A19AB0FBC7F /* Pods_______.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -594,72 +146,16 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 69CAB840B9985D245DA42EDAAC98F0A1 /* Products */;
+			productRefGroup = B6A64536477C0C8060CB2FCF64F73BD6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39CC489E7EFA1773AF74945F1433FE69 /* Pods-Associated的内存占用情况 */,
-				8B4B32F26FC352892BFCF1E432E8C451 /* Pods-Block转C内存占用 */,
-				08F237958A7B347DF601C397A7281308 /* Pods-C可变数组 */,
-				DDFE58125BDCA6B5DDD4623A71CD9CE2 /* Pods-NSArray的内存 */,
 				C99F96BE8F139EC4EB423D6EDFA7A76B /* Pods-Playground */,
-				E8090855F2EDE6671E5A06D8B4D4ED04 /* Pods-手动分配内存 */,
-				866629F764E3D3F422C7DE5D94FD8B87 /* Pods-探索Struct内存分布 */,
-				B9B22DDD2CA98ACD0E2BCA5A0AB0EBBD /* Pods-自定义类的内存占用 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0613E7491C3CA1FEC28DDF352EE43F40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		17E3B2CBC90881A5B065D23EB70207D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		190F4E19E1DA1358763AD0AA88FE3BF8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B81C11C8928D8E743F0A59A9C3011EF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BB081A2D42CD0A9764CF3E35013164F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F7F5A88B109A77A133CB06BEAAE1030 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA586A09A3F19FE8F3FFAEA98DD42E22 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DBB37D00FBCBE1B2CF3BC630D9FFCB71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -670,62 +166,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3C91BEBF4F3FCAC10CF22182D021FC6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C8366FB57DBCA436CF156537C0B5561 /* Pods-手动分配内存-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D401576B958608C42BE1A2D790B9286 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A4358508921767E181539D1476E2F05 /* Pods-探索Struct内存分布-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D6AEAE74B0E9F17DB0D485C7D805A27 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35C809F8596BDF0B8FB3C539098D3142 /* Pods-自定义类的内存占用-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		683612474C3F59AAA68B85E0128F4D00 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B54ED224D2B469EEBE21D8B6074733A /* Pods-C可变数组-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A09B0B22D4A380D6B227EC4DB28F1536 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DF5C09F981AADE2F275B6BF8BE53928 /* Pods-NSArray的内存-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B46BE1E9C18DC0116A9CCFEA50A6E20A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1622A7B3C23EB17A02FA79A0A43EA9F3 /* Pods-Block转C内存占用-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E80FA2D2839E0B330D4C84EEBBD8DEC2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EE4651AEE2CDEA65465A56675AAF1EA /* Pods-Associated的内存占用情况-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EA5FE065212F16FDFAE79F99267C6B70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -737,84 +177,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2911C2E8418AB03D8F86B3038B251ADE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E5DEFC968FE82F6A5C1EE62ABC5F556 /* Pods-C可变数组.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-C可变数组/Pods-C可变数组-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-C可变数组/Pods-C可变数组.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3306798B54D934D43CDEC9078D86D3A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71AD657D6F79C80B01D2983CA4E4A124 /* Pods-NSArray的内存.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NSArray的内存/Pods-NSArray的内存-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NSArray的内存/Pods-NSArray的内存.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		33179605C29EDE4C0D873E13A340FEA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 757CDD0826319F60B3108DC6FE2E1EC2 /* Pods-Playground.release.xcconfig */;
+			baseConfigurationReference = 2641AAB26350B60D2CA5E96882FAF2D2 /* Pods-Playground.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -849,85 +214,10 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		371F91BE13E4BD06B142B1CAFCC37D42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CC0AD8CF22081AAC5C8B12295518846 /* Pods-探索Struct内存分布.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-探索Struct内存分布/Pods-探索Struct内存分布-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-探索Struct内存分布/Pods-探索Struct内存分布.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3A47CF946B759BB20F03A4A20C0FD136 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7832208249B833EA361217C71ACE1DD /* Pods-C可变数组.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-C可变数组/Pods-C可变数组-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-C可变数组/Pods-C可变数组.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		3E01B8FBD2823B7C49248BA707047CB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A9D8066D572B7CB8312BC1E0370965F /* Pods-Playground.debug.xcconfig */;
+			baseConfigurationReference = 598E43E6E49B238B9E807399F5A2955C /* Pods-Playground.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -961,120 +251,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		40AB05D2CE6FA0C69A54072934C667E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 782816261E0B1889F4231791D64DE2FF /* Pods-NSArray的内存.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NSArray的内存/Pods-NSArray的内存-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NSArray的内存/Pods-NSArray的内存.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6C53DE51FC252A1A4BC4DA573C31702F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B11FFB59D94AB4E6EE4CB22AE10B7EA6 /* Pods-手动分配内存.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-手动分配内存/Pods-手动分配内存-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-手动分配内存/Pods-手动分配内存.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7ECCF7C8B3731DF076DE9E278BF7ABFC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51D2AA27B918BBFF6B5B9068C022AC2C /* Pods-Block转C内存占用.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Block转C内存占用/Pods-Block转C内存占用-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Block转C内存占用/Pods-Block转C内存占用.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1133,44 +309,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		9091EA95978A087A83B172F2EFB88549 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22062F001F3DA7FF850D0B6B7341B27B /* Pods-自定义类的内存占用.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-自定义类的内存占用/Pods-自定义类的内存占用-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-自定义类的内存占用/Pods-自定义类的内存占用.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1238,241 +376,9 @@
 			};
 			name = Debug;
 		};
-		995D5DDA9A05C30CB4C38F921627F8C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B56EEEE28D6ECD64992BBCA3FBC04029 /* Pods-探索Struct内存分布.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-探索Struct内存分布/Pods-探索Struct内存分布-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-探索Struct内存分布/Pods-探索Struct内存分布.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9AF606D55BD7A019CA0CA366ABB7F9DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62AEFB9E9EED81EAFDFC35B6A26CFED8 /* Pods-Associated的内存占用情况.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Associated的内存占用情况/Pods-Associated的内存占用情况-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Associated的内存占用情况/Pods-Associated的内存占用情况.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9ED414AD5C5BF618C8E94D8A45B13140 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFAAC158A362EE3541E417A75B5F0BF1 /* Pods-自定义类的内存占用.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-自定义类的内存占用/Pods-自定义类的内存占用-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-自定义类的内存占用/Pods-自定义类的内存占用.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A52DA546A36CB51A529638F7C99DA02B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4EB8549D9952EC719DD6B3A2C22DFC5 /* Pods-Associated的内存占用情况.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Associated的内存占用情况/Pods-Associated的内存占用情况-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Associated的内存占用情况/Pods-Associated的内存占用情况.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0AF5F07FF1E8CC471D28112416046AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C87607805EC14BA8D166E6A7564FDCC /* Pods-Block转C内存占用.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Block转C内存占用/Pods-Block转C内存占用-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Block转C内存占用/Pods-Block转C内存占用.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BC80DB4B1CC3383DEFC87EE9AAC7447D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72DAA568BDA97EF2ED2E60C87E36EC28 /* Pods-手动分配内存.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-手动分配内存/Pods-手动分配内存-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-手动分配内存/Pods-手动分配内存.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F48F23EE4EE7A9D0AE8DD89915B158E /* Build configuration list for PBXNativeTarget "Pods-自定义类的内存占用" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9ED414AD5C5BF618C8E94D8A45B13140 /* Debug */,
-				9091EA95978A087A83B172F2EFB88549 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1482,65 +388,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		667FF1DD644EB8138ADA162BAD4F68DC /* Build configuration list for PBXNativeTarget "Pods-Block转C内存占用" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B0AF5F07FF1E8CC471D28112416046AF /* Debug */,
-				7ECCF7C8B3731DF076DE9E278BF7ABFC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9787B508716B320B0086BD2718930AE1 /* Build configuration list for PBXNativeTarget "Pods-Associated的内存占用情况" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9AF606D55BD7A019CA0CA366ABB7F9DC /* Debug */,
-				A52DA546A36CB51A529638F7C99DA02B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B7B3CCDF423A1C802FB7684C2B5082F0 /* Build configuration list for PBXNativeTarget "Pods-Playground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E01B8FBD2823B7C49248BA707047CB5 /* Debug */,
 				33179605C29EDE4C0D873E13A340FEA8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C30CC29DD5B483D201DF3C7C21FE5952 /* Build configuration list for PBXNativeTarget "Pods-C可变数组" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3A47CF946B759BB20F03A4A20C0FD136 /* Debug */,
-				2911C2E8418AB03D8F86B3038B251ADE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF2A53984D4E0D4928E99B68857CB188 /* Build configuration list for PBXNativeTarget "Pods-手动分配内存" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC80DB4B1CC3383DEFC87EE9AAC7447D /* Debug */,
-				6C53DE51FC252A1A4BC4DA573C31702F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE99CC87C6861E7BDB0171A225095BB7 /* Build configuration list for PBXNativeTarget "Pods-探索Struct内存分布" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				995D5DDA9A05C30CB4C38F921627F8C5 /* Debug */,
-				371F91BE13E4BD06B142B1CAFCC37D42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F3112F65C1070F3C4F28E98C15CF5650 /* Build configuration list for PBXNativeTarget "Pods-NSArray的内存" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3306798B54D934D43CDEC9078D86D3A0 /* Debug */,
-				40AB05D2CE6FA0C69A54072934C667E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

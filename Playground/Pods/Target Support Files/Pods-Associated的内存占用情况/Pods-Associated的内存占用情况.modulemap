@@ -1,6 +1,0 @@
-framework module Pods_Associated_______ {
-  umbrella header "Pods-Associated的内存占用情况-umbrella.h"
-
-  export *
-  module * { export * }
-}

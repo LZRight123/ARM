@@ -1,6 +1,0 @@
-framework module Pods__________ {
-  umbrella header "Pods-自定义类的内存占用-umbrella.h"
-
-  export *
-  module * { export * }
-}
